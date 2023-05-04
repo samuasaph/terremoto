@@ -1,114 +1,232 @@
 <!doctype html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Terremoto</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    </head>
-    <body class="bg-secondary">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="https://brasilescola.uol.com.br/o-que-e/geografia/o-que-e-terremoto.htm" target="_blank">Terremoto</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://mundoeducacao.uol.com.br/geografia/terremotos.htm" target="_blank">Como se<br> formam</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://novaescola.org.br/conteudo/1097/o-que-sao-terremotos-e-como-se-mede-sua-intensidade" target="_blank">Como é medida<br> a sua intencidade </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Três maiores<br> Terremotos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="https://pt.wikipedia.org/wiki/Sismo_de_Valdivia_de_1960#:~:text=Os%20terremotos%20chilenos%20de%201960,forte%20o%20terremoto%20de%20Valdivia." target="_blank">Chile 1960</a></li>
-                      <li><a class="dropdown-item" href="https://pt.wikipedia.org/wiki/Sismo_do_Alasca_de_1964#:~:text=O%20Sismo%20do%20Alasca%20de,causaram%20cerca%20de%20139%20mortes." target="_blank">Alasca(EUA) 1964</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://pt.wikipedia.org/wiki/Sismo_e_tsunâmi_do_Oceano_Índico_de_2004#:~:text=O%20sismo%20e%20tsunâmi%20do,como%20terramoto%20de%20Sumatra-Andaman." target="_blank">Sumatra Indonesia 2004</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Soon</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
 
-          <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/urn_newsml_afp.com_20230208_91d6fd28-ad29-4ee3-af4d-fadfc01a026e_ipad.jpg" class="d-block w-100" height="650" width="650">
-              </div>
-              <div class="carousel-item">
-                <img src="img/GettyImages-1463347442.jpg" class="d-block w-100" height="650" width="650">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Terremoto-deixa-mais-de-2300-mortos-na-Turquia-e-na-Síria-1024x683.jpg" class="d-block w-100" height="650" width="650">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terremoto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
 
-          <main class="container">
+<body class="bg-secondary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://brasilescola.uol.com.br/o-que-e/geografia/o-que-e-terremoto.htm"
+        target="_blank">Terremoto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="https://mundoeducacao.uol.com.br/geografia/terremotos.htm" target="_blank">Como se<br> formam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://novaescola.org.br/conteudo/1097/o-que-sao-terremotos-e-como-se-mede-sua-intensidade"
+              target="_blank">Como é medida<br> a sua intencidade </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Três maiores<br> Terremotos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item"
+                  href="https://pt.wikipedia.org/wiki/Sismo_de_Valdivia_de_1960#:~:text=Os%20terremotos%20chilenos%20de%201960,forte%20o%20terremoto%20de%20Valdivia."
+                  target="_blank">Chile 1960</a></li>
+              <li><a class="dropdown-item"
+                  href="https://pt.wikipedia.org/wiki/Sismo_do_Alasca_de_1964#:~:text=O%20Sismo%20do%20Alasca%20de,causaram%20cerca%20de%20139%20mortes."
+                  target="_blank">Alasca(EUA) 1964</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item"
+                  href="https://pt.wikipedia.org/wiki/Sismo_e_tsunâmi_do_Oceano_Índico_de_2004#:~:text=O%20sismo%20e%20tsunâmi%20do,como%20terramoto%20de%20Sumatra-Andaman."
+                  target="_blank">Sumatra Indonesia 2004</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Soon</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-            <h1>Tudo Sobre Terrremoto</h1>
-            <p>Os terremotos ou abalos sísmicos são classificados como eventos geológicos. Eles são definidos como fenômenos de vibração brusca da superfície da Terra que podem durar segundos ou minutos. Os terremotos ou abalos sísmicos são provocados por movimentos na crosta terrestre, composta por enormes placas de rocha, chamadas de placas tectônicas. Além disso os tremores também podem ser resultantes de atividade vulcânica ou de deslocamentos de gases (principalmente metano) no interior da Terra. O movimento é causado pela liberação rápida de grandes quantidades de energia na forma de ondas sísmicas.
-              As placas tectônicas se movimentam lenta e sucessivamente sobre uma camada de rocha parcialmente derretida, ocasionando um contínuo processo de pressão e deformação nas grandes massas de rocha. Quando duas placas se chocam ou se raspam, elas geram um acúmulo de pressão que provoca um movimento brusco.
-              Há três tipos de movimentos: convergente (quando duas se chocam), divergente (quando se movimentam em direções contrárias) e transformante (separa placas que estão se deslocando lateralmente). Os movimentos convergente e divergente das placas provocam alterações no relevo. A cada choque, a placa que apresenta menor viscosidade (mais aquecida) afunda sob a mais viscosa (menos aquecida). A parte que penetra tem o nome de zona de subducção. No oeste da América do Sul, por exemplo, o afundamento da placa de Nazca sob a placa continental originou a cordilheira dos Andes.
-              A maior parte dos terremotos ocorre nas bordas das placas tectônicas (“tectônica” tem origem na palavra “construção” em grego) ou em falhas entre dois blocos rochosos. As regiões mais sujeitas a terremotos são aquelas próximas às placas tectônicas como o oeste da América do Sul onde está localizada a placa de Nazca e a placa Sul-Americana; e nas regiões em que se formam novas placas como no oceano Pacífico onde se localiza o Cinturão de Fogo. O comprimento de uma falha causada por um terremoto pode variar de centímetros a milhões de quilômetros, como por exemplo, a falha de San Andreas na Califórnia, Estados Unidos.
-              Nos Estados Unidos, localizado no limite das placas Norte-americana e do Pacífico , ocorrem de 12 mil a 14 mil eventos sísmicos anualmente (ou seja, aproximadamente 35 por dia). Baseado em registros históricos de longo prazo, aproximadamente 18 grandes terremotos (de 7,0 a 7,9 na Escala Richter) e um terremoto gigante (8 ou acima) podem ser esperados num ano.
-              Entre os efeitos dos terremotos estão: vibração do solo, abertura de falhas, deslizamento de terra, tsunamis e mudanças na rotação da Terra. Além disso temos consequências prejudiciais ao homem como ferimentos, morte, prejuízos financeiros e sociais, desabamento de construções etc.
-              A região onde ocorre a liberação de energia sísmica (ondas sísmicas), ou a falha na rocha, é chamada de região focal ou foco sísmico - hipocentro. O ponto diretamente acima do foco, na superfície da Terra, é chamado de epicentro. A zona ao redor do epicentro é normalmente a mais afetada por um abalo sísmico.
-              Em alguns terremotos, os tremores só podem ser registrados por aparelhos denominados sismógrafos. Outros são abalos tão violentos que devastam extensas regiões.
-              O maior terremoto já registrado foi o Grande Terremoto do Chile, em 1960, atingindo 9.5 na escala de Richter, em seguida o da Indonésia, em 2004, registrando 9.3 na mesma escala. O que um terremoto provoca na superfície da Terra, tal como, tremor sentido pelas pessoas, rachaduras nas paredes ou no solo, desabamentos de edificações, etc., pode ser medido como sua intensidade, na escala denominada Escala Mercalli. A escala mais usada para medir a grandeza dos terremotos é a do sismólogo Charles Francis Richter. Sua escala varia de 0 a 9 graus e calcula a energia liberada pelos tremores.
-            Um estudo de geólogos americanos divulgado em Maio de 2008 sugere que terremotos de grandes proporções — como o que devastou a província chinesa de Sichuan, no dia 12 de maio de 2008 — podem provocar tremores secundários até do outro lado do planeta. O indício do fenômeno foi publicado no jornal científico britânico Nature Geoscience, por uma equipe de pesquisadores da Agência de Pesquisa Geológica dos Estados Unidos (US Geological Survey). Segundo eles, 12 dos últimos 15 grandes terremotos — de magnitude superior a 7 pontos na escala Richter — ocorridos desde 1990 deram origem a ondas sísmicas que provocaram, dias depois, pequenos abalos até em continentes muito distantes do epicentro do tremor original.
-            O grande terremoto que sacudiu a costa da Sumatra (Indonésia), em 2004, por exemplo, provocou abalos secundários em lugares como o Alasca, a Califórnia e o Equador, segundo os cientistas. Foram tremores menores, entre 3 e 5 graus, mas suficientes para assustar as populações destes locais. Os geólogos não deram uma explicação conclusiva para o fenômeno, apenas apontaram a relação entre tremores descoberta depois de analisarem registros de mais de 500 sismógrafos espelhados pelo mundo. E, coincidência ou não, a região central da Colômbia foi abalada por um tremor de magnitude 5,5, duas semanas após o grande terremoto chinês, o que pode ajudar a comprovar a teoria.
-          </p>
-          <div class="container my-2">
-            <div class="row g-3">
-              <div class="col-6 mt-5">
-                <div class="card bg-dark text-light">
-                  <Img src="img/cq5dam.thumbnail.cropped.750.4223.jpg" class="card-img-top" height="350" width="350">
-                    <div class="card-body">
-                      <h1 class="card-title">Terremoto na Siria</h1>
-                      <p class="card-text">Terremoto na Siria ,o numero de mortos passa de 40 mil</p>
-                      <a href="https://www.metropoles.com/mundo/por-que-o-terremoto-na-turquia-e-na-siria-foi-tao-devastador" class="btn btn-primary" target="blank">Sobre</a>                      
-                    </div>
-                  </div class="bg-dark">
-                </div>
-                <div class="col-6 mt-5">
-                  <div class="card bg-dark text-light">
-                    <Img src="img/terremoto-turquia-e-siria-19022023134219957.jpg" class="card-img-top" height="350" width="350">
-                      <div class="card-body">
-                        <h1 class="card-title">Terremoto na Turquia</h1>
-                        <p class="card-text">Terremoto na Turquia ,o numero de mortos passa de 46 mil</p>
-                        <a href="https://noticias.r7.com/internacional/numero-de-mortos-em-terremoto-na-turquia-e-na-siria-passa-de-46-mil-19022023" class="btn btn-primary" target="blank">Um pouco mais</a>
-                      </div>
-                    </div class="bg-dark">
-                  </div>
-                </div>
-              </main>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
-                
+  <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/urn_newsml_afp.com_20230208_91d6fd28-ad29-4ee3-af4d-fadfc01a026e_ipad.jpg" class="d-block w-100"
+          height="650" width="650">
+      </div>
+      <div class="carousel-item">
+        <img src="img/GettyImages-1463347442.jpg" class="d-block w-100" height="650" width="650">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Terremoto-deixa-mais-de-2300-mortos-na-Turquia-e-na-Síria-1024x683.jpg" class="d-block w-100"
+          height="650" width="650">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main class="container">
+
+    <h1>Tudo Sobre Terrremoto</h1>
+    <p>Os terremotos ou abalos sísmicos são classificados como eventos geológicos. Eles são definidos como fenômenos de
+      vibração brusca da superfície da Terra que podem durar segundos ou minutos. Os terremotos ou abalos sísmicos são
+      provocados por movimentos na crosta terrestre, composta por enormes placas de rocha, chamadas de placas
+      tectônicas. Além disso os tremores também podem ser resultantes de atividade vulcânica ou de deslocamentos de
+      gases (principalmente metano) no interior da Terra. O movimento é causado pela liberação rápida de grandes
+      quantidades de energia na forma de ondas sísmicas.
+      As placas tectônicas se movimentam lenta e sucessivamente sobre uma camada de rocha parcialmente derretida,
+      ocasionando um contínuo processo de pressão e deformação nas grandes massas de rocha. Quando duas placas se chocam
+      ou se raspam, elas geram um acúmulo de pressão que provoca um movimento brusco.
+      Há três tipos de movimentos: convergente (quando duas se chocam), divergente (quando se movimentam em direções
+      contrárias) e transformante (separa placas que estão se deslocando lateralmente). Os movimentos convergente e
+      divergente das placas provocam alterações no relevo. A cada choque, a placa que apresenta menor viscosidade (mais
+      aquecida) afunda sob a mais viscosa (menos aquecida). A parte que penetra tem o nome de zona de subducção. No
+      oeste da América do Sul, por exemplo, o afundamento da placa de Nazca sob a placa continental originou a
+      cordilheira dos Andes.
+      A maior parte dos terremotos ocorre nas bordas das placas tectônicas (“tectônica” tem origem na palavra
+      “construção” em grego) ou em falhas entre dois blocos rochosos. As regiões mais sujeitas a terremotos são aquelas
+      próximas às placas tectônicas como o oeste da América do Sul onde está localizada a placa de Nazca e a placa
+      Sul-Americana; e nas regiões em que se formam novas placas como no oceano Pacífico onde se localiza o Cinturão de
+      Fogo. O comprimento de uma falha causada por um terremoto pode variar de centímetros a milhões de quilômetros,
+      como por exemplo, a falha de San Andreas na Califórnia, Estados Unidos.
+      Nos Estados Unidos, localizado no limite das placas Norte-americana e do Pacífico , ocorrem de 12 mil a 14 mil
+      eventos sísmicos anualmente (ou seja, aproximadamente 35 por dia). Baseado em registros históricos de longo prazo,
+      aproximadamente 18 grandes terremotos (de 7,0 a 7,9 na Escala Richter) e um terremoto gigante (8 ou acima) podem
+      ser esperados num ano.
+      Entre os efeitos dos terremotos estão: vibração do solo, abertura de falhas, deslizamento de terra, tsunamis e
+      mudanças na rotação da Terra. Além disso temos consequências prejudiciais ao homem como ferimentos, morte,
+      prejuízos financeiros e sociais, desabamento de construções etc.
+      A região onde ocorre a liberação de energia sísmica (ondas sísmicas), ou a falha na rocha, é chamada de região
+      focal ou foco sísmico - hipocentro. O ponto diretamente acima do foco, na superfície da Terra, é chamado de
+      epicentro. A zona ao redor do epicentro é normalmente a mais afetada por um abalo sísmico.
+      Em alguns terremotos, os tremores só podem ser registrados por aparelhos denominados sismógrafos. Outros são
+      abalos tão violentos que devastam extensas regiões.
+      O maior terremoto já registrado foi o Grande Terremoto do Chile, em 1960, atingindo 9.5 na escala de Richter, em
+      seguida o da Indonésia, em 2004, registrando 9.3 na mesma escala. O que um terremoto provoca na superfície da
+      Terra, tal como, tremor sentido pelas pessoas, rachaduras nas paredes ou no solo, desabamentos de edificações,
+      etc., pode ser medido como sua intensidade, na escala denominada Escala Mercalli. A escala mais usada para medir a
+      grandeza dos terremotos é a do sismólogo Charles Francis Richter. Sua escala varia de 0 a 9 graus e calcula a
+      energia liberada pelos tremores.
+      Um estudo de geólogos americanos divulgado em Maio de 2008 sugere que terremotos de grandes proporções — como o
+      que devastou a província chinesa de Sichuan, no dia 12 de maio de 2008 — podem provocar tremores secundários até
+      do outro lado do planeta. O indício do fenômeno foi publicado no jornal científico britânico Nature Geoscience,
+      por uma equipe de pesquisadores da Agência de Pesquisa Geológica dos Estados Unidos (US Geological Survey).
+      Segundo eles, 12 dos últimos 15 grandes terremotos — de magnitude superior a 7 pontos na escala Richter —
+      ocorridos desde 1990 deram origem a ondas sísmicas que provocaram, dias depois, pequenos abalos até em continentes
+      muito distantes do epicentro do tremor original.
+      O grande terremoto que sacudiu a costa da Sumatra (Indonésia), em 2004, por exemplo, provocou abalos secundários
+      em lugares como o Alasca, a Califórnia e o Equador, segundo os cientistas. Foram tremores menores, entre 3 e 5
+      graus, mas suficientes para assustar as populações destes locais. Os geólogos não deram uma explicação conclusiva
+      para o fenômeno, apenas apontaram a relação entre tremores descoberta depois de analisarem registros de mais de
+      500 sismógrafos espelhados pelo mundo. E, coincidência ou não, a região central da Colômbia foi abalada por um
+      tremor de magnitude 5,5, duas semanas após o grande terremoto chinês, o que pode ajudar a comprovar a teoria.
+    </p>
+    <div class="container my-2">
+      <div class="row g-3">
+        <div class="col-6 mt-5">
+          <div class="card bg-dark text-light">
+            <Img src="img/cq5dam.thumbnail.cropped.750.4223.jpg" class="card-img-top" height="350" width="350">
+            <div class="card-body">
+              <h1 class="card-title">Terremoto na Siria</h1>
+              <p class="card-text">Terremoto na Siria ,o numero de mortos passa de 40 mil</p>
+              <a href="https://www.metropoles.com/mundo/por-que-o-terremoto-na-turquia-e-na-siria-foi-tao-devastador"
+                class="btn btn-primary" target="blank">Sobre</a>
+            </div>
+          </div class="bg-dark">
+        </div>
+        <div class="col-6 mt-5">
+          <div class="card bg-dark text-light">
+            <Img src="img/terremoto-turquia-e-siria-19022023134219957.jpg" class="card-img-top" height="350"
+              width="350">
+            <div class="card-body">
+              <h1 class="card-title">Terremoto na Turquia</h1>
+              <p class="card-text">Terremoto na Turquia ,o numero de mortos passa de 46 mil</p>
+              <a href="https://noticias.r7.com/internacional/numero-de-mortos-em-terremoto-na-turquia-e-na-siria-passa-de-46-mil-19022023"
+                class="btn btn-primary" target="blank">Um pouco mais</a>
+            </div>
+          </div class="bg-dark">
+        </div>
+      </div>
+  </main>
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container-fluid my-5">
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container-fluid pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+          <!-- Github -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+  <!-- End of .container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
